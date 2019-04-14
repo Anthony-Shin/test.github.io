@@ -20,6 +20,9 @@
   </head>
   <body>
     <div id="map"></div>
+    
+    <script type="text/javascript"
+  	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARPOTKTvkswP0Sa5Qi06GD28v9gl_gtsM&libraries=visualization"></script>
     <script>
       /* Data points defined as an array of LatLng objects */
 var heatmapData = [
@@ -52,7 +55,5 @@ var heatmap = new google.maps.visualization.HeatmapLayer({
 });
 heatmap.setMap(map);
     </script>
-    <script type="text/javascript"
-  	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARPOTKTvkswP0Sa5Qi06GD28v9gl_gtsM&libraries=visualization"></script>
   </body>
 </html>
